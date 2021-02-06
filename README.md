@@ -1,1 +1,1 @@
-# Django_Weather_App
+<img src="weather.jpg"/>
