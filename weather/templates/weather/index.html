@@ -13,21 +13,23 @@
        }
        .container{
            background: #f8f9fa;
-           padding: 60px 60px 60px 0;
+           padding: 60px;
+           width: 40%;
        }
        .max_sizer{
            overflow: hidden;
-           max-height: 440px;
+           max-height: 500px;
            margin-top: 20px;
        }
        #id_name{
            padding-bottom: 5px;
+           width: 80%;
        }
     </style>
 </head>
 <body>
     <div class="container mt-5">
-        <div class="col-5 offset-1">
+        <div class="col-12">
                 <h1>Weather Finder</h1>
                 <p>Find out the weather forecast for any city</p>
                 <form action="" method="post">
@@ -37,7 +39,7 @@
                 </form>
             </div>
 
-       <div class="col-5 offset-1 max_sizer">
+       <div class="col-12 max_sizer">
                 {% for info in all_info %}
                 <div class="alert alert-info">
                     <div class="row">
